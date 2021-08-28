@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 import lombok.Data;
 
-//pojo class
+//Naveed
 @Data
 @Entity
 @Table(name="poa.patient")
@@ -31,6 +31,7 @@ public class Patient {
 	
 	public Patient() {
 		// TODO Auto-generated constructor stub
+		System.out.println("calle");
 	}
 
 }
