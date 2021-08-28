@@ -8,6 +8,7 @@ import javax.persistence.Table;
 
 import lombok.Data;
 
+//pojo class
 @Data
 @Entity
 @Table(name="poa.patient")
