@@ -11,7 +11,7 @@ import lombok.Data;
 //Naveed
 @Data
 @Entity
-@Table(name="poa.patient")
+@Table(name="poa.patients")
 public class Patient {
 
 	private String firstName;
@@ -23,7 +23,7 @@ public class Patient {
 	private String bloodGroup;
 	private String city;
 	private long phoneNumber;
-	private long alternatephoneNumber;
+	private long alternatePhoneNumber;
 	private String alternateEmail;
 	private String patientWeight;
 	private String patientHeight;
