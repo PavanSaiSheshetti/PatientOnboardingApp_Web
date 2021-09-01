@@ -34,7 +34,7 @@ public class PatientController {
 			responseEntity=new ResponseEntity<List<Patient>>(patients,HttpStatus.OK);
 		}
 		else {
-			responseEntity=new ResponseEntity<List<Patient>>(patients,HttpStatus.OK);
+			responseEntity=new ResponseEntity<List<Patient>>(patients,HttpStatus.NO_CONTENT);
 		}
 		return responseEntity;
 	}
@@ -48,7 +48,7 @@ public class PatientController {
 			responseEntity=new ResponseEntity<Patient>(patient,HttpStatus.OK);
 		}
 		else {
-			responseEntity=new ResponseEntity<Patient>(patient,HttpStatus.OK);
+			responseEntity=new ResponseEntity<Patient>(patient,HttpStatus.NO_CONTENT);
 		}
 		return responseEntity;
 	}
@@ -60,7 +60,7 @@ public class PatientController {
 		String message=null;
 		if(patientService.isPatientExist(patientEmail)) {
 			message="patient with email already exist";
-			responseEntity=new ResponseEntity<String>(message,HttpStatus.OK);
+			responseEntity=new ResponseEntity<String>(message,HttpStatus.CONFLICT);
 		}
 		else {
 			message="patient added successfully";
@@ -82,12 +82,13 @@ public class PatientController {
 	public ResponseEntity<Boolean> authenticatePatient(@PathVariable("patientEmail")String patientEmail,
 			@PathVariable("password")String password){
 		ResponseEntity<Boolean> responseEntity;
+		System.out.println("authenticate called");
 		boolean value=patientService.authenticatePatient(patientEmail,password);
 		if(value) {
 			responseEntity=new ResponseEntity<Boolean>(value,HttpStatus.OK);
 		}
 		else {
-			responseEntity=new ResponseEntity<Boolean>(value,HttpStatus.OK);
+			responseEntity=new ResponseEntity<Boolean>(value,HttpStatus.CONFLICT);
 		}
 		return responseEntity;
 	}
