@@ -26,7 +26,7 @@ public class PatientController {
 	PatientService patientService;
 	
 	@GetMapping
-	public ResponseEntity<List<Patient>> getProducts(){
+	public ResponseEntity<List<Patient>> getPatient(){
 		
 		ResponseEntity<List<Patient>> responseEntity;
 		List<Patient> patients=patientService.getAllPatientDetails();
