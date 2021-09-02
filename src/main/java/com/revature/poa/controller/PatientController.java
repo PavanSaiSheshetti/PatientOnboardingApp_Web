@@ -72,6 +72,7 @@ public class PatientController {
 	
 	@PutMapping("update")
 	public ResponseEntity<String> updatePatientDetails(@RequestBody Patient patient){
+		System.out.println(patient);
 		ResponseEntity<String> responseEntity;
 		String message="patient updated successfully";
 		patientService.updatePatientDetails(patient);

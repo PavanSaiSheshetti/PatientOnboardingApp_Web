@@ -6,12 +6,15 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+
 
 //Naveed
 @Data
 @Entity
-@Table(name="poa.patients")
+@Table(name="poapp.patients")
+@AllArgsConstructor
 public class Patient {
 
 	private String firstName;
@@ -25,13 +28,12 @@ public class Patient {
 	private long phoneNumber;
 	private long alternatePhoneNumber;
 	private String alternateEmail;
-	private String patientWeight;
-	private String patientHeight;
+	private long patientWeight;
+	private long patientHeight;
 	private Date lastLoggedInTime;
 	
 	public Patient() {
 		// TODO Auto-generated constructor stub
-		System.out.println("calle");
 	}
 
 }

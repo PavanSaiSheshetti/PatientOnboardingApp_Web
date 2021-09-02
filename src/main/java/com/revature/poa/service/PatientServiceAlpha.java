@@ -25,6 +25,7 @@ public class PatientServiceAlpha implements PatientService{
 	public boolean updatePatientDetails(Patient patient) {
 		// TODO Auto-generated method stub
 		patientRepository.save(patient);
+		System.out.println("ghjbhk"+patient);
 		return true;
 	}
 
