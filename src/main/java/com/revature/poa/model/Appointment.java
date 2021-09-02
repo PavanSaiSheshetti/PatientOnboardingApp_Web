@@ -11,6 +11,7 @@ import lombok.Data;
 @Data
 public class Appointment {
 	
+
 	@Id
 	private String patientEmail;
 	
