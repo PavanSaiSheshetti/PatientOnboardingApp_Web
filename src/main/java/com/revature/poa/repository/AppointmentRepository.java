@@ -9,9 +9,15 @@ import com.revature.poa.model.Appointment;
 @Repository
 public interface AppointmentRepository extends CrudRepository<Appointment, String> {
 
-	public List<Appointment> findBySpecialist(String specialist);
+	public List<Appointment> findBySpecializationId(long specialistId);
 
 	public List<Appointment> findByConsultingType(String consultingType);
+	
+	public List<Appointment> findByDoctorId(long doctorId);
+	
+	public List<Appointment> findByPatientEmail(String patientEmail);
+	
+	public List<Appointment> findByAppointmentStatus(String appointmentStatus);
 	
 
 }

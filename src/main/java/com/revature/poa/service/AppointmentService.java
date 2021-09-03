@@ -8,9 +8,11 @@ public interface AppointmentService {
 
 	//public boolean addAppointmentToSpecialist(Appointment appointment);
 	public boolean deleteAppointment(String patientEmail);
-	public List<Appointment> getAppointmentBySpecialists(String specialist);
+	public List<Appointment> getAppointmentBySpecialistId(long specialistId);
 	public List<Appointment> getAppointmentByConsultingType(String consultingType);
+	public List<Appointment> getAppointmentByDoctorId(long doctorId);
 	public boolean addAppointments(Appointment appointment);
 	public List<Appointment> getAllAppointments();
+	public List<Appointment> getAppointmentsByStatusSuccess(String appointmentStatus);
 }
 
