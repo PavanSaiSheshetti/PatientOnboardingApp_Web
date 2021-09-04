@@ -26,7 +26,7 @@ public class AppointmentController {
 	AppointmentService appointmentService;
 	
 	@PostMapping("save")
-	public ResponseEntity<String> saveAppointments(@RequestBody Appointment appointment){
+	public ResponseEntity<String> addAppointments(@RequestBody Appointment appointment){
 		ResponseEntity<String> responseEntity;
 		String message = null;
 		appointmentService.addAppointments(appointment);
@@ -52,10 +52,10 @@ public class AppointmentController {
 		
 	}
 	
-	@GetMapping("{specialist}")
-	public ResponseEntity<List<Appointment>> getAppointmentBySpecialist(@PathVariable String specialist){
+	@GetMapping("{specialistId}")
+	public ResponseEntity<List<Appointment>> getAppointmentBySpecialistId(@PathVariable("specialistId") long specialistId){
 		ResponseEntity<List<Appointment>> responseEntity;
-		List<Appointment> appointmentList = appointmentService.getAppointmentBySpecialists(specialist);
+		List<Appointment> appointmentList = appointmentService.getAppointmentBySpecialistId(specialistId);
 		if(appointmentList.size() !=0) {
 			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.FOUND);
 		}
@@ -66,7 +66,7 @@ public class AppointmentController {
 		return responseEntity;
 	}
 	
-	@GetMapping("get/{consultingType}")
+	@GetMapping("mode/{consultingType}")
 	public ResponseEntity<List<Appointment>> getAppointByConsultingType(@PathVariable String consultingType){
 		ResponseEntity<List<Appointment>> responseEntity;
 		List<Appointment> appointmentList = appointmentService.getAppointmentByConsultingType(consultingType);
@@ -89,6 +89,38 @@ public class AppointmentController {
 		responseEntity = new ResponseEntity<String>(message,HttpStatus.OK);
 		return responseEntity;
 		
+	}
+	
+	@GetMapping("/get/{doctorId}")
+	public ResponseEntity<List<Appointment>> getAppointmentByDoctorId(@PathVariable("doctorId") long doctorId){
+		ResponseEntity<List<Appointment>> responseEntity;
+		List<Appointment> appointmentList = appointmentService.getAppointmentByDoctorId(doctorId);
+		if(appointmentList.size() !=0) {
+			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.FOUND);
+		}
+		else {
+			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.NO_CONTENT);
+		}
+		
+		return responseEntity;
+	}
+	
+	@GetMapping("/status/{status}")
+	public ResponseEntity<List<Appointment>> getAppointmentByStatus(@PathVariable("status") String status){
+		ResponseEntity<List<Appointment>> responseEntity = null;
+		List<Appointment> appointmentList = null;
+		
+		appointmentList = appointmentService.getAppointmentsByStatusSuccess(status);	 
+		 if(appointmentList.size()!=0) {
+			 responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.FOUND);
+		 }
+		
+		else {
+			 responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.NO_CONTENT);
+		}
+		
+		return responseEntity;
+
 	}
 	
 	
