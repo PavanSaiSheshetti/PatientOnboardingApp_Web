@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -92,6 +93,21 @@ public class PatientController {
 		else {
 			responseEntity=new ResponseEntity<Boolean>(value,HttpStatus.CONFLICT);
 		}
+		return responseEntity;
+	}
+	
+	@DeleteMapping("/delete/{patientEmail}")
+	public ResponseEntity<Boolean> deletePatient(@PathVariable("patientEmail") String patientEmail){
+		ResponseEntity<Boolean> responseEntity;
+		System.out.println("delete called");
+		boolean result = patientService.deletePatient(patientEmail);
+		if(result) {
+			responseEntity = new ResponseEntity<Boolean>(result,HttpStatus.OK);
+		}
+		else {
+			responseEntity = new ResponseEntity<Boolean>(result,HttpStatus.CONFLICT);
+		}
+		
 		return responseEntity;
 	}
 

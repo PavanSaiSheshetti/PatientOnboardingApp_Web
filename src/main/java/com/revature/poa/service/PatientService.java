@@ -13,4 +13,5 @@ public interface PatientService {
 	public boolean isPatientExist(String patientEmail);
 	public List<Patient> getAllPatientDetails();
 	public boolean authenticatePatient(String patientEmail,String password);
+	public boolean deletePatient(String patientEmail);
 }
