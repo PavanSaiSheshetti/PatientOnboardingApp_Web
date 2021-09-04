@@ -63,5 +63,12 @@ public class PatientServiceAlpha implements PatientService{
 			return false;
 	}
 
+	@Override
+	public boolean deletePatient(String patientEmail) {
+		// TODO Auto-generated method stub
+		patientRepository.deleteById(patientEmail);
+		return true;
+	}
+
 
 }
