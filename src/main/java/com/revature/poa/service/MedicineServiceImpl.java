@@ -13,11 +13,11 @@ public class MedicineServiceImpl implements MedicineService {
 
 	@Autowired
 	MedicineRepository medicineRepository;
-	
+
 	@Override
 	public boolean addMedicine(Medicine medicine) {
 		// TODO Auto-generated method stub
-		 medicineRepository.save(medicine);
+		medicineRepository.save(medicine);
 		return true;
 	}
 
@@ -39,13 +39,38 @@ public class MedicineServiceImpl implements MedicineService {
 	public boolean isPatientEmailExists(String patientEmail) {
 		// TODO Auto-generated method stub
 		List<Medicine> medicineList = medicineRepository.findByPatientEmail(patientEmail);
-		if(medicineList.size() == 0) {
+		if (medicineList.size() == 0) {
 			return false;
-		}
-		else {
+		} else {
 			return true;
 		}
-		
+
+	}
+
+	@Override
+	public List<Medicine> getMedicines() {
+		// TODO Auto-generated method stub
+		List<Medicine> medicineList = (List<Medicine>) medicineRepository.findAll();
+		return medicineList;
+	}
+
+	@Override
+	public List<Medicine> getMedicineByStatus(String status) {
+		List<Medicine> medicineList = (List<Medicine>) medicineRepository.findByStatus(status);
+
+		// TODO Auto-generated method stub
+		return medicineList;
+	}
+
+	@Override
+	public boolean updateStatus(int medicineNumber) {
+		// TODOAuto-generated method stub
+		int result = medicineRepository.updateStatus(medicineNumber);
+		if (result == 0) {
+			return false;
+		} else {
+			return true;
+		}
 	}
 
 }
