@@ -25,6 +25,8 @@ public class Medicine {
 	
 	private float price;
 	
+	private String status;
+	
 	public Medicine() {
 		// TODO Auto-generated constructor stub
 	}
