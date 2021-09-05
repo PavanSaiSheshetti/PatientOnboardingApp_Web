@@ -42,7 +42,7 @@ public class AppointmentController {
 		ResponseEntity<List<Appointment>> responseEntity;
 		List<Appointment> appointmentList = appointmentService.getAllAppointments();
 		if(appointmentList.size() !=0) {
-			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.FOUND);
+			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.OK);
 		}
 		else {
 			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.NO_CONTENT);
