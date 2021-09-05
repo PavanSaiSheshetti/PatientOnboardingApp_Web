@@ -57,7 +57,7 @@ public class AppointmentController {
 		ResponseEntity<List<Appointment>> responseEntity;
 		List<Appointment> appointmentList = appointmentService.getAppointmentBySpecialistId(specialistId);
 		if(appointmentList.size() !=0) {
-			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.FOUND);
+			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.OK);
 		}
 		else {
 			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.NO_CONTENT);
@@ -71,7 +71,7 @@ public class AppointmentController {
 		ResponseEntity<List<Appointment>> responseEntity;
 		List<Appointment> appointmentList = appointmentService.getAppointmentByConsultingType(consultingType);
 		if(appointmentList.size() !=0) {
-			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.FOUND);
+			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.OK);
 		}
 		else {
 			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.NO_CONTENT);
@@ -96,7 +96,7 @@ public class AppointmentController {
 		ResponseEntity<List<Appointment>> responseEntity;
 		List<Appointment> appointmentList = appointmentService.getAppointmentByDoctorId(doctorId);
 		if(appointmentList.size() !=0) {
-			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.FOUND);
+			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.OK);
 		}
 		else {
 			responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.NO_CONTENT);
@@ -112,7 +112,7 @@ public class AppointmentController {
 		
 		appointmentList = appointmentService.getAppointmentsByStatusSuccess(status);	 
 		 if(appointmentList.size()!=0) {
-			 responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.FOUND);
+			 responseEntity = new ResponseEntity<List<Appointment>>(appointmentList,HttpStatus.OK);
 		 }
 		
 		else {
