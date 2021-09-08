@@ -16,11 +16,12 @@ public class AppointmentServiceImpl implements AppointmentService{
 	AppointmentRepository appointmentRepository;
 
 	@Override
-	public boolean deleteAppointment(String patientEmail) {
+	public boolean deleteAppointment(int appointmentNumber) {
 		// TODO Auto-generated method stub
-		appointmentRepository.deleteById(patientEmail);
+		appointmentRepository.deleteById(appointmentNumber);
 		return true;
 	}
+	
 
 	@Override
 	public List<Appointment> getAppointmentBySpecialistId(long specialistId) {

@@ -2,3 +2,204 @@ INFO	2021-09-07 13:08:50,499	0	admin controller	[http-nio-9090-exec-1]	Admin tri
 INFO	2021-09-07 13:08:51,998	1499	admin controller	[http-nio-9090-exec-1]	Admin Login Authentication failed
 INFO	2021-09-07 13:11:42,842	172343	admin controller	[http-nio-9090-exec-3]	Admin tried to Logged In at Tue Sep 07 13:11:42 IST 2021
 INFO	2021-09-07 13:11:50,097	179598	admin controller	[http-nio-9090-exec-3]	Admin Logged In Successfully
+INFO	2021-09-07 23:14:41,833	0	Patient controller	[http-nio-9090-exec-3]	 getting all the patient details
+INFO	2021-09-07 23:14:42,376	543	Patient controller	[http-nio-9090-exec-3]	 get all the patient details
+INFO	2021-09-07 23:14:44,516	2683	Patient controller	[http-nio-9090-exec-5]	 deleting the patient details with patient name naveedimran28@gmail.com
+INFO	2021-09-07 23:14:46,655	4822	Patient controller	[http-nio-9090-exec-5]	 deleted the patient details with patient name naveedimran28@gmail.com
+INFO	2021-09-07 23:14:49,903	8070	Patient controller	[http-nio-9090-exec-6]	 getting all the patient details
+INFO	2021-09-07 23:14:49,928	8095	Patient controller	[http-nio-9090-exec-6]	 get all the patient details
+INFO	2021-09-07 23:15:10,540	28707	Patient controller	[http-nio-9090-exec-7]	 getting all the patient details
+INFO	2021-09-07 23:15:10,542	28709	Patient controller	[http-nio-9090-exec-7]	 get all the patient details
+INFO	2021-09-07 23:15:12,290	30457	Patient controller	[http-nio-9090-exec-9]	 deleting the patient details with patient name imran2877@gmail.com
+INFO	2021-09-07 23:15:12,294	30461	Patient controller	[http-nio-9090-exec-9]	 deleted the patient details with patient name imran2877@gmail.com
+INFO	2021-09-07 23:15:18,621	36788	Patient controller	[http-nio-9090-exec-10]	 getting all the patient details
+INFO	2021-09-07 23:15:18,623	36790	Patient controller	[http-nio-9090-exec-10]	 get all the patient details
+INFO	2021-09-07 23:15:38,680	56847	Medicine controller	[http-nio-9090-exec-3]	 getting all the medicines
+INFO	2021-09-07 23:15:38,815	56982	Medicine controller	[http-nio-9090-exec-3]	 get all the medicines
+INFO	2021-09-07 23:15:40,385	58552	Medicine controller	[http-nio-9090-exec-5]	 deleting the medicine by medicine number 23
+INFO	2021-09-07 23:15:40,417	58584	Medicine controller	[http-nio-9090-exec-5]	 deleted the medicine by medicine number 23
+INFO	2021-09-07 23:15:40,727	58894	Medicine controller	[http-nio-9090-exec-6]	 deleting the medicine by medicine number 23
+INFO	2021-09-07 23:15:42,463	60630	Medicine controller	[http-nio-9090-exec-7]	 deleting the medicine by medicine number 23
+INFO	2021-09-07 23:15:49,275	67442	Medicine controller	[http-nio-9090-exec-8]	 getting all the medicines
+INFO	2021-09-07 23:15:49,278	67445	Medicine controller	[http-nio-9090-exec-8]	 get all the medicines
+INFO	2021-09-07 23:15:52,061	70228	Medicine controller	[http-nio-9090-exec-10]	 deleting the medicine by medicine number 30
+INFO	2021-09-07 23:15:52,064	70231	Medicine controller	[http-nio-9090-exec-10]	 deleted the medicine by medicine number 30
+INFO	2021-09-07 23:15:55,442	73609	Medicine controller	[http-nio-9090-exec-1]	 getting all the medicines
+INFO	2021-09-07 23:15:55,444	73611	Medicine controller	[http-nio-9090-exec-1]	 get all the medicines
+INFO	2021-09-07 23:17:00,109	138276	Medicine controller	[http-nio-9090-exec-3]	 getting all the medicines
+INFO	2021-09-07 23:17:00,112	138279	Medicine controller	[http-nio-9090-exec-3]	 get all the medicines
+INFO	2021-09-07 23:17:17,893	156060	Medicine controller	[http-nio-9090-exec-5]	 deleting the medicine by medicine number 34
+INFO	2021-09-07 23:17:17,896	156063	Medicine controller	[http-nio-9090-exec-5]	 deleted the medicine by medicine number 34
+INFO	2021-09-07 23:17:20,178	158345	Medicine controller	[http-nio-9090-exec-6]	 getting all the medicines
+INFO	2021-09-07 23:17:20,181	158348	Medicine controller	[http-nio-9090-exec-6]	 get all the medicines
+INFO	2021-09-07 23:20:00,303	318470	Medicine controller	[http-nio-9090-exec-8]	 getting all the medicines
+INFO	2021-09-07 23:20:00,324	318491	Medicine controller	[http-nio-9090-exec-8]	 get all the medicines
+INFO	2021-09-07 23:20:04,959	323126	Medicine controller	[http-nio-9090-exec-10]	 deleting the medicine by medicine number 36
+INFO	2021-09-07 23:20:04,963	323130	Medicine controller	[http-nio-9090-exec-10]	 deleted the medicine by medicine number 36
+INFO	2021-09-07 23:20:32,883	351050	Medicine controller	[http-nio-9090-exec-1]	 getting all the medicines
+INFO	2021-09-07 23:20:32,885	351052	Medicine controller	[http-nio-9090-exec-1]	 get all the medicines
+INFO	2021-09-07 23:22:02,996	441163	Medicine controller	[http-nio-9090-exec-3]	 getting all the medicines
+INFO	2021-09-07 23:22:02,999	441166	Medicine controller	[http-nio-9090-exec-3]	 get all the medicines
+INFO	2021-09-07 23:22:14,080	452247	Medicine controller	[http-nio-9090-exec-4]	 getting all the medicines
+INFO	2021-09-07 23:22:14,085	452252	Medicine controller	[http-nio-9090-exec-4]	 get all the medicines
+INFO	2021-09-07 23:22:25,398	463565	Medicine controller	[http-nio-9090-exec-5]	 getting all the medicines
+INFO	2021-09-07 23:22:25,400	463567	Medicine controller	[http-nio-9090-exec-5]	 get all the medicines
+INFO	2021-09-07 23:27:38,347	776514	Medicine controller	[http-nio-9090-exec-4]	 getting all the medicines
+INFO	2021-09-07 23:27:38,349	776516	Medicine controller	[http-nio-9090-exec-4]	 get all the medicines
+INFO	2021-09-07 23:28:22,014	820181	Medicine controller	[http-nio-9090-exec-5]	 getting all the medicines
+INFO	2021-09-07 23:28:22,021	820188	Medicine controller	[http-nio-9090-exec-5]	 get all the medicines
+INFO	2021-09-07 23:29:16,416	874583	Medicine controller	[http-nio-9090-exec-7]	 getting all the medicines
+INFO	2021-09-07 23:29:16,420	874587	Medicine controller	[http-nio-9090-exec-7]	 get all the medicines
+INFO	2021-09-07 23:29:23,857	882024	Patient controller	[http-nio-9090-exec-9]	 getting all the patient details
+INFO	2021-09-07 23:29:23,860	882027	Patient controller	[http-nio-9090-exec-9]	 get all the patient details
+INFO	2021-09-07 23:29:54,852	913019	Patient controller	[http-nio-9090-exec-10]	 getting all the patient details
+INFO	2021-09-07 23:29:54,855	913022	Patient controller	[http-nio-9090-exec-10]	 get all the patient details
+INFO	2021-09-07 23:29:54,898	913065	Medicine controller	[http-nio-9090-exec-1]	 getting all the medicines
+INFO	2021-09-07 23:29:54,900	913067	Medicine controller	[http-nio-9090-exec-1]	 get all the medicines
+INFO	2021-09-07 23:30:50,556	968723	Medicine controller	[http-nio-9090-exec-2]	 getting all the medicines
+INFO	2021-09-07 23:30:50,558	968725	Medicine controller	[http-nio-9090-exec-2]	 get all the medicines
+INFO	2021-09-07 23:31:31,093	1009260	Medicine controller	[http-nio-9090-exec-4]	 getting all the medicines
+INFO	2021-09-07 23:31:31,095	1009262	Medicine controller	[http-nio-9090-exec-4]	 get all the medicines
+INFO	2021-09-07 23:32:10,126	1048293	Medicine controller	[http-nio-9090-exec-7]	 getting all the medicines
+INFO	2021-09-07 23:32:10,127	1048294	Medicine controller	[http-nio-9090-exec-7]	 get all the medicines
+INFO	2021-09-07 23:32:42,357	1080524	Patient controller	[http-nio-9090-exec-8]	 getting all the patient details
+INFO	2021-09-07 23:32:42,359	1080526	Patient controller	[http-nio-9090-exec-8]	 get all the patient details
+INFO	2021-09-07 23:33:25,275	1123442	Medicine controller	[http-nio-9090-exec-1]	 getting all the medicines
+INFO	2021-09-07 23:33:25,277	1123444	Medicine controller	[http-nio-9090-exec-1]	 get all the medicines
+INFO	2021-09-07 23:33:55,122	1153289	Medicine controller	[http-nio-9090-exec-3]	 getting all the medicines
+INFO	2021-09-07 23:33:55,123	1153290	Medicine controller	[http-nio-9090-exec-3]	 get all the medicines
+INFO	2021-09-07 23:34:46,651	1204818	Medicine controller	[http-nio-9090-exec-5]	 getting all the medicines
+INFO	2021-09-07 23:34:46,653	1204820	Medicine controller	[http-nio-9090-exec-5]	 get all the medicines
+INFO	2021-09-07 23:35:06,675	1224842	Medicine controller	[http-nio-9090-exec-7]	 getting all the medicines
+INFO	2021-09-07 23:35:06,676	1224843	Medicine controller	[http-nio-9090-exec-7]	 get all the medicines
+INFO	2021-09-07 23:35:28,735	1246902	Patient controller	[http-nio-9090-exec-9]	 getting all the patient details
+INFO	2021-09-07 23:35:28,737	1246904	Patient controller	[http-nio-9090-exec-9]	 get all the patient details
+INFO	2021-09-07 23:35:43,234	1261401	Medicine controller	[http-nio-9090-exec-2]	 getting all the medicines
+INFO	2021-09-07 23:35:43,237	1261404	Medicine controller	[http-nio-9090-exec-2]	 get all the medicines
+INFO	2021-09-07 23:36:10,510	1288677	Medicine controller	[http-nio-9090-exec-4]	 getting all the medicines
+INFO	2021-09-07 23:36:10,514	1288681	Medicine controller	[http-nio-9090-exec-4]	 get all the medicines
+INFO	2021-09-07 23:36:10,653	1288820	Medicine controller	[http-nio-9090-exec-5]	 getting all the medicines
+INFO	2021-09-07 23:36:10,657	1288824	Medicine controller	[http-nio-9090-exec-5]	 get all the medicines
+INFO	2021-09-07 23:36:30,407	1308574	Medicine controller	[http-nio-9090-exec-8]	 getting all the medicines
+INFO	2021-09-07 23:36:30,410	1308577	Medicine controller	[http-nio-9090-exec-8]	 get all the medicines
+INFO	2021-09-07 23:38:06,841	1405008	Patient controller	[http-nio-9090-exec-5]	Patient tried to Logged In at Tue Sep 07 23:38:06 IST 2021
+INFO	2021-09-07 23:38:06,847	1405014	Patient controller	[http-nio-9090-exec-5]	Patient Login Authentication failed
+INFO	2021-09-07 23:38:06,852	1405019	Patient controller	[http-nio-9090-exec-6]	Patient tried to Logged In at Tue Sep 07 23:38:06 IST 2021
+INFO	2021-09-07 23:38:06,854	1405021	Patient controller	[http-nio-9090-exec-6]	Patient Login Authentication failed
+INFO	2021-09-07 23:38:22,927	1421094	Patient controller	[http-nio-9090-exec-8]	 getting all the patient details
+INFO	2021-09-07 23:38:22,929	1421096	Patient controller	[http-nio-9090-exec-8]	 get all the patient details
+INFO	2021-09-07 23:40:15,670	1533837	Medicine controller	[http-nio-9090-exec-5]	 getting all the medicines
+INFO	2021-09-07 23:40:15,673	1533840	Medicine controller	[http-nio-9090-exec-5]	 get all the medicines
+INFO	2021-09-07 23:40:40,019	1558186	Medicine controller	[http-nio-9090-exec-6]	 getting all the medicines
+INFO	2021-09-07 23:40:40,023	1558190	Medicine controller	[http-nio-9090-exec-6]	 get all the medicines
+INFO	2021-09-07 23:41:19,147	1597314	Medicine controller	[http-nio-9090-exec-8]	 getting all the medicines
+INFO	2021-09-07 23:41:19,151	1597318	Medicine controller	[http-nio-9090-exec-8]	 get all the medicines
+INFO	2021-09-07 23:41:27,451	1605618	Patient controller	[http-nio-9090-exec-10]	 getting all the patient details
+INFO	2021-09-07 23:41:27,456	1605623	Patient controller	[http-nio-9090-exec-10]	 get all the patient details
+INFO	2021-09-07 23:41:53,131	1631298	Patient controller	[http-nio-9090-exec-2]	Patient tried to Logged In at Tue Sep 07 23:41:53 IST 2021
+INFO	2021-09-07 23:41:53,135	1631302	Patient controller	[http-nio-9090-exec-2]	Patient Login Authentication failed
+INFO	2021-09-07 23:41:53,156	1631323	Patient controller	[http-nio-9090-exec-3]	Patient tried to Logged In at Tue Sep 07 23:41:53 IST 2021
+INFO	2021-09-07 23:41:53,158	1631325	Patient controller	[http-nio-9090-exec-3]	Patient Login Authentication failed
+INFO	2021-09-07 23:43:09,658	1707825	Patient controller	[http-nio-9090-exec-6]	 saving patient details 
+INFO	2021-09-07 23:43:09,664	1707831	Patient controller	[http-nio-9090-exec-6]	 saved patient with name : Naveed Imran
+INFO	2021-09-07 23:43:21,698	1719865	Patient controller	[http-nio-9090-exec-7]	Patient tried to Logged In at Tue Sep 07 23:43:21 IST 2021
+INFO	2021-09-07 23:43:21,701	1719868	Patient controller	[http-nio-9090-exec-7]	Patient Logged In Successfully
+INFO	2021-09-07 23:43:21,707	1719874	Patient controller	[http-nio-9090-exec-8]	Patient tried to Logged In at Tue Sep 07 23:43:21 IST 2021
+INFO	2021-09-07 23:43:21,710	1719877	Patient controller	[http-nio-9090-exec-8]	Patient Logged In Successfully
+INFO	2021-09-07 23:43:24,860	1723027	Medicine controller	[http-nio-9090-exec-9]	 searching the medicine by patient Email rebekah@gmail.com
+INFO	2021-09-07 23:43:24,869	1723036	Medicine controller	[http-nio-9090-exec-9]	Not found any medicine details with medicine email rebekah@gmail.com
+INFO	2021-09-07 23:43:31,248	1729415	Patient controller	[http-nio-9090-exec-10]	 searching the patient by patient Email rebekah@gmail.com
+INFO	2021-09-07 23:43:31,252	1729419	Patient controller	[http-nio-9090-exec-10]	 retrieved the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 09:26:09,946	0	admin controller	[http-nio-9090-exec-1]	Admin tried to Logged In at Wed Sep 08 09:26:09 IST 2021
+INFO	2021-09-08 09:26:10,304	358	admin controller	[http-nio-9090-exec-1]	Admin Logged In Successfully
+INFO	2021-09-08 09:27:14,161	64215	Medicine controller	[http-nio-9090-exec-5]	 getting all the medicines
+INFO	2021-09-08 09:27:14,253	64307	Medicine controller	[http-nio-9090-exec-5]	 get all the medicines
+INFO	2021-09-08 09:27:23,870	73924	Patient controller	[http-nio-9090-exec-8]	 getting all the patient details
+INFO	2021-09-08 09:27:23,910	73964	Patient controller	[http-nio-9090-exec-8]	 get all the patient details
+INFO	2021-09-08 09:27:37,643	87697	Patient controller	[http-nio-9090-exec-1]	 deleting the patient details with patient name moksh@gmail.com
+INFO	2021-09-08 09:27:37,806	87860	Patient controller	[http-nio-9090-exec-1]	 deleted the patient details with patient name moksh@gmail.com
+INFO	2021-09-08 09:27:41,413	91467	Patient controller	[http-nio-9090-exec-2]	 getting all the patient details
+INFO	2021-09-08 09:27:41,415	91469	Patient controller	[http-nio-9090-exec-2]	 get all the patient details
+INFO	2021-09-08 09:32:17,173	367227	Patient controller	[http-nio-9090-exec-6]	 getting all the patient details
+INFO	2021-09-08 09:32:17,175	367229	Patient controller	[http-nio-9090-exec-6]	 get all the patient details
+INFO	2021-09-08 09:36:58,744	648798	Medicine controller	[http-nio-9090-exec-6]	 getting all the medicines
+INFO	2021-09-08 09:36:58,748	648802	Medicine controller	[http-nio-9090-exec-6]	 get all the medicines
+INFO	2021-09-08 09:39:03,226	773280	Patient controller	[http-nio-9090-exec-10]	 saving patient details 
+INFO	2021-09-08 09:39:03,230	773284	Patient controller	[http-nio-9090-exec-10]	 saved patient with name : Naveed Imran
+INFO	2021-09-08 09:39:17,978	788032	Patient controller	[http-nio-9090-exec-2]	Patient tried to Logged In at Wed Sep 08 09:39:17 IST 2021
+INFO	2021-09-08 09:39:17,985	788039	Patient controller	[http-nio-9090-exec-2]	Patient Login Authentication failed
+INFO	2021-09-08 09:39:17,996	788050	Patient controller	[http-nio-9090-exec-3]	Patient tried to Logged In at Wed Sep 08 09:39:17 IST 2021
+INFO	2021-09-08 09:39:17,998	788052	Patient controller	[http-nio-9090-exec-3]	Patient Login Authentication failed
+INFO	2021-09-08 09:39:22,951	793005	Patient controller	[http-nio-9090-exec-4]	Patient tried to Logged In at Wed Sep 08 09:39:22 IST 2021
+INFO	2021-09-08 09:39:22,954	793008	Patient controller	[http-nio-9090-exec-4]	Patient Logged In Successfully
+INFO	2021-09-08 09:39:22,960	793014	Patient controller	[http-nio-9090-exec-5]	Patient tried to Logged In at Wed Sep 08 09:39:22 IST 2021
+INFO	2021-09-08 09:39:22,962	793016	Patient controller	[http-nio-9090-exec-5]	Patient Logged In Successfully
+INFO	2021-09-08 09:40:47,972	878026	Patient controller	[http-nio-9090-exec-7]	 searching the patient by patient Email naveedimran2802@gmail.com
+INFO	2021-09-08 09:40:47,975	878029	Patient controller	[http-nio-9090-exec-7]	 retrieved the patient by patient Email naveedimran2802@gmail.com
+INFO	2021-09-08 09:41:25,828	915882	Patient controller	[http-nio-9090-exec-9]	 searching the patient by patient Email naveedimran2802@gmail.com
+INFO	2021-09-08 09:41:25,830	915884	Patient controller	[http-nio-9090-exec-9]	 retrieved the patient by patient Email naveedimran2802@gmail.com
+INFO	2021-09-08 09:41:56,737	946791	Patient controller	[http-nio-9090-exec-3]	 searching the patient by patient Email naveedimran2802@gmail.com
+INFO	2021-09-08 09:41:56,740	946794	Patient controller	[http-nio-9090-exec-3]	 retrieved the patient by patient Email naveedimran2802@gmail.com
+INFO	2021-09-08 09:42:33,472	983526	Patient controller	[http-nio-9090-exec-5]	 searching the patient by patient Email naveedimran2802@gmail.com
+INFO	2021-09-08 09:42:33,485	983539	Patient controller	[http-nio-9090-exec-5]	 retrieved the patient by patient Email naveedimran2802@gmail.com
+INFO	2021-09-08 09:42:38,156	988210	Patient controller	[http-nio-9090-exec-6]	 searching the patient by patient Email naveedimran2802@gmail.com
+INFO	2021-09-08 09:42:38,158	988212	Patient controller	[http-nio-9090-exec-6]	 retrieved the patient by patient Email naveedimran2802@gmail.com
+INFO	2021-09-08 09:43:17,075	1027129	Patient controller	[http-nio-9090-exec-8]	 searching the patient by patient Email naveedimran2802@gmail.com
+INFO	2021-09-08 09:43:17,079	1027133	Patient controller	[http-nio-9090-exec-8]	 retrieved the patient by patient Email naveedimran2802@gmail.com
+INFO	2021-09-08 09:47:17,917	1267971	Patient controller	[http-nio-9090-exec-3]	 getting all the patient details
+INFO	2021-09-08 09:47:17,919	1267973	Patient controller	[http-nio-9090-exec-3]	 get all the patient details
+INFO	2021-09-08 09:47:33,959	1284013	Patient controller	[http-nio-9090-exec-4]	Patient tried to Logged In at Wed Sep 08 09:47:33 IST 2021
+INFO	2021-09-08 09:47:33,962	1284016	Patient controller	[http-nio-9090-exec-4]	Patient Logged In Successfully
+INFO	2021-09-08 09:47:33,966	1284020	Patient controller	[http-nio-9090-exec-5]	Patient tried to Logged In at Wed Sep 08 09:47:33 IST 2021
+INFO	2021-09-08 09:47:33,968	1284022	Patient controller	[http-nio-9090-exec-5]	Patient Logged In Successfully
+INFO	2021-09-08 09:47:36,282	1286336	Patient controller	[http-nio-9090-exec-6]	 searching the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 09:47:36,284	1286338	Patient controller	[http-nio-9090-exec-6]	 retrieved the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 09:47:37,972	1288026	Patient controller	[http-nio-9090-exec-7]	 searching the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 09:47:37,985	1288039	Patient controller	[http-nio-9090-exec-7]	 retrieved the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 09:47:50,613	1300667	Patient controller	[http-nio-9090-exec-9]	 searching the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 09:47:50,616	1300670	Patient controller	[http-nio-9090-exec-9]	 retrieved the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 09:47:52,760	1302814	Patient controller	[http-nio-9090-exec-2]	 searching the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 09:47:52,761	1302815	Patient controller	[http-nio-9090-exec-2]	 retrieved the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 09:49:25,626	1395680	Patient controller	[http-nio-9090-exec-4]	 saving patient details 
+INFO	2021-09-08 09:49:25,627	1395681	Patient controller	[http-nio-9090-exec-4]	 saved patient with name : Pavan Sai Shetti
+INFO	2021-09-08 09:53:19,908	1629962	Patient controller	[http-nio-9090-exec-6]	Patient tried to Logged In at Wed Sep 08 09:53:19 IST 2021
+INFO	2021-09-08 09:53:19,910	1629964	Patient controller	[http-nio-9090-exec-6]	Patient Logged In Successfully
+INFO	2021-09-08 09:53:19,914	1629968	Patient controller	[http-nio-9090-exec-8]	Patient tried to Logged In at Wed Sep 08 09:53:19 IST 2021
+INFO	2021-09-08 09:53:19,916	1629970	Patient controller	[http-nio-9090-exec-8]	Patient Logged In Successfully
+INFO	2021-09-08 09:53:33,852	1643906	Patient controller	[http-nio-9090-exec-7]	 searching the patient by patient Email pavan@gmail.com
+INFO	2021-09-08 09:53:33,853	1643907	Patient controller	[http-nio-9090-exec-7]	 retrieved the patient by patient Email pavan@gmail.com
+INFO	2021-09-08 09:54:27,569	1697623	Patient controller	[http-nio-9090-exec-10]	 searching the patient by patient Email pavan@gmail.com
+INFO	2021-09-08 09:54:27,571	1697625	Patient controller	[http-nio-9090-exec-10]	 retrieved the patient by patient Email pavan@gmail.com
+INFO	2021-09-08 09:56:51,841	1841895	admin controller	[http-nio-9090-exec-6]	Admin tried to Logged In at Wed Sep 08 09:56:51 IST 2021
+INFO	2021-09-08 09:56:51,846	1841900	admin controller	[http-nio-9090-exec-6]	Admin Logged In Successfully
+INFO	2021-09-08 09:57:05,833	1855887	Medicine controller	[http-nio-9090-exec-7]	 getting all the medicines
+INFO	2021-09-08 09:57:05,837	1855891	Medicine controller	[http-nio-9090-exec-7]	 get all the medicines
+INFO	2021-09-08 09:57:10,469	1860523	Patient controller	[http-nio-9090-exec-9]	 getting all the patient details
+INFO	2021-09-08 09:57:10,471	1860525	Patient controller	[http-nio-9090-exec-9]	 get all the patient details
+INFO	2021-09-08 09:57:59,881	1909935	Medicine controller	[http-nio-9090-exec-3]	 getting all the medicines
+INFO	2021-09-08 09:57:59,883	1909937	Medicine controller	[http-nio-9090-exec-3]	 get all the medicines
+INFO	2021-09-08 10:13:40,308	2850362	Medicine controller	[http-nio-9090-exec-4]	 getting all the medicines
+INFO	2021-09-08 10:13:40,314	2850368	Medicine controller	[http-nio-9090-exec-4]	 get all the medicines
+INFO	2021-09-08 10:13:44,937	2854991	Medicine controller	[http-nio-9090-exec-8]	 deleting the medicine by medicine number 24
+INFO	2021-09-08 10:13:45,996	2856050	Medicine controller	[http-nio-9090-exec-8]	 deleted the medicine by medicine number 24
+INFO	2021-09-08 10:13:47,810	2857864	Medicine controller	[http-nio-9090-exec-10]	 deleting the medicine by medicine number 32
+INFO	2021-09-08 10:13:47,818	2857872	Medicine controller	[http-nio-9090-exec-10]	 deleted the medicine by medicine number 32
+INFO	2021-09-08 10:13:50,825	2860879	Medicine controller	[http-nio-9090-exec-9]	 getting all the medicines
+INFO	2021-09-08 10:13:50,828	2860882	Medicine controller	[http-nio-9090-exec-9]	No medicine found
+INFO	2021-09-08 10:13:56,894	2866948	Patient controller	[http-nio-9090-exec-2]	 getting all the patient details
+INFO	2021-09-08 10:13:56,897	2866951	Patient controller	[http-nio-9090-exec-2]	 get all the patient details
+INFO	2021-09-08 10:14:20,913	2890967	Patient controller	[http-nio-9090-exec-1]	Patient tried to Logged In at Wed Sep 08 10:14:20 IST 2021
+INFO	2021-09-08 10:14:20,916	2890970	Patient controller	[http-nio-9090-exec-1]	Patient Logged In Successfully
+INFO	2021-09-08 10:14:21,087	2891141	Patient controller	[http-nio-9090-exec-4]	Patient tried to Logged In at Wed Sep 08 10:14:21 IST 2021
+INFO	2021-09-08 10:14:21,226	2891280	Patient controller	[http-nio-9090-exec-4]	Patient Logged In Successfully
+INFO	2021-09-08 10:14:24,408	2894462	Patient controller	[http-nio-9090-exec-5]	 searching the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 10:14:24,411	2894465	Patient controller	[http-nio-9090-exec-5]	 retrieved the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 10:14:26,474	2896528	Patient controller	[http-nio-9090-exec-6]	 searching the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 10:14:26,477	2896531	Patient controller	[http-nio-9090-exec-6]	 retrieved the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 10:14:38,568	2908622	Patient controller	[http-nio-9090-exec-10]	 searching the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 10:14:38,571	2908625	Patient controller	[http-nio-9090-exec-10]	 retrieved the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 10:14:38,662	2908716	Patient controller	[http-nio-9090-exec-2]	 searching the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 10:14:38,796	2908850	Patient controller	[http-nio-9090-exec-2]	 retrieved the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 10:14:39,423	2909477	Patient controller	[http-nio-9090-exec-9]	 updated the patient 
+INFO	2021-09-08 10:14:43,418	2913472	Patient controller	[http-nio-9090-exec-4]	 searching the patient by patient Email rebekah@gmail.com
+INFO	2021-09-08 10:14:43,423	2913477	Patient controller	[http-nio-9090-exec-4]	 retrieved the patient by patient Email rebekah@gmail.com

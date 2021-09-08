@@ -80,11 +80,11 @@ public class AppointmentController {
 		return responseEntity;
 	}
 	
-	@DeleteMapping("delete/{patientEmail}")
-	public ResponseEntity<String> deleteAppointments(@PathVariable("patientEmail") String patientEmail){
+	@DeleteMapping("delete/{appointmentNumber}")
+	public ResponseEntity<String> deleteAppointments(@PathVariable("appointmentNumber") int appointmentNumber){
 		ResponseEntity<String> responseEntity;
 		String message = null;
-		appointmentService.deleteAppointment(patientEmail);
+		appointmentService.deleteAppointment(appointmentNumber);
 		message = "Appointment Deleted successfully";
 		responseEntity = new ResponseEntity<String>(message,HttpStatus.OK);
 		return responseEntity;

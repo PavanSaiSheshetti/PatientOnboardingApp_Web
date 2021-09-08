@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import com.revature.poa.model.Appointment;
 
 @Repository
-public interface AppointmentRepository extends CrudRepository<Appointment, String> {
+public interface AppointmentRepository extends CrudRepository<Appointment, Integer> {
 
 	public List<Appointment> findBySpecializationId(long specialistId);
 

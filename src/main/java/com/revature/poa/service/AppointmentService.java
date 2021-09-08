@@ -7,7 +7,7 @@ import com.revature.poa.model.Appointment;
 public interface AppointmentService {
 
 	//public boolean addAppointmentToSpecialist(Appointment appointment);
-	public boolean deleteAppointment(String patientEmail);
+	public boolean deleteAppointment(int appointmentNumber);
 	public List<Appointment> getAppointmentBySpecialistId(long specialistId);
 	public List<Appointment> getAppointmentByConsultingType(String consultingType);
 	public List<Appointment> getAppointmentByDoctorId(long doctorId);
