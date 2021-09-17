@@ -1,5 +1,7 @@
 # PatientOnboardingApp_Web
 
+## Result (Home Page) :
+![](https://github.com/Na-veed/Patient-OnBoarding-Angular/blob/master/src/assets/home.JPG)
 ## Note :
   This project is only spring project and please find related angular project [here](https://github.com/PavanSaiSheshetti/PatientOnboardingApp_Angular). You will find complete 
   description of running project in Installation and Run Section
