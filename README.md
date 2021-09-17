@@ -36,7 +36,7 @@
 <ul>
 <li>Used Spring Data for connecting to postgresql database </li>
 <li>Used DAO design pattern in the project
-<li>Created Interactive Webpages using HTML5 for UI and CSS, Bootstrap for styling the website
+<li>Created Interactive Webpages using Angular and Bootstrap for the website
 <li>All the client side and server side validations were done using TypeScript and Database
 <li>Exception or Error Handling is done in both  java and angular(With HttpClient)
 <li>Tested all the functionalities using JUnit4 
