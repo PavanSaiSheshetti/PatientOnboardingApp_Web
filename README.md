@@ -49,11 +49,11 @@ Customer can make an appointment with the specified doctor after login, and can 
 
 ## Installation and Run:
 
-###Step1 :
+### Step1 :
 Import this project by a Github Desktop(click [here](https://desktop.github.com/) to install) or by downloading the Zip file . If you downloaded the zip file then you need to unzip or extract it and import this in eclipse(file-->import-->select the project)
 change the database configuration in application.properties file (Driver,Dialect,username and password).
 
-###Step2 :
+### Step2 :
 Import the angular Project (find [here](https://github.com/PavanSaiSheshetti/PatientOnboardingApp_Angular))by a Github Desktop or by downloading the Zip file. If you downloaded the zip file then you need to unzip or extract it and open the project folder in visual studio code or any other code editor(file-->select folder-->select the project)
 
 That's all you can run this project and see the results.
