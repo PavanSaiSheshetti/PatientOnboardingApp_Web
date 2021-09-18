@@ -63,7 +63,7 @@ That's all you can run this project and see the results.
 ###### Note :
 <ol>
 <li>you can install eclipse IDE <a href="https://www.eclipse.org/downloads/">here</a></li>
-<li>you can install install visual studio code <a href="https://code.visualstudio.com/download">here</a></li>
+<li>you can install visual studio code <a href="https://code.visualstudio.com/download">here</a></li>
 </ol>
 
 ## Bug / Feature Request:
