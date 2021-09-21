@@ -5,7 +5,7 @@
 ## Note :
   This project is only spring project and please find related angular project [here](https://github.com/PavanSaiSheshetti/PatientOnboardingApp_Angular). You will find complete 
   description of running project in Installation and Run Section
-## Overview:
+## Project Description
 
 <p> Title of our application is patient on-boarding app</p>
 
@@ -32,6 +32,17 @@
   <li>I can able to delete patients and delete the records of medicines that been in the bought state
 </ul>
 
+## Technologies Used
+
+<ul><li>Java
+  <li>Java
+  <li>Angular
+  <li>SpringBoot
+  <li>Spring Data
+  <li>PostgreSql
+  <li>JSON
+</ul>
+
 ## Technical Aspect:
 <ul>
 <li>Used Spring Data for connecting to postgresql database </li>
@@ -43,13 +54,13 @@
 <li>Implemented Logging by Log4j
 </ul>
 
-## Working Procedure of model:
+## Getting Started
 
 After running this project , run the angular project (import angular project [here](https://github.com/PavanSaiSheshetti/PatientOnboardingApp_Angular)). Homw page will be displayed where you can see the about and facilities section about the hospital. And also customer can register and login, Doctor and admin can login.
 
 Customer can make an appointment with the specified doctor after login, and can view and update profile, Also buy medicine. Dotor can view his/her appointments, can also allocate medicines. Admin can add doctor, medicines and have control over the whole functionalities
 
-## Installation and Run:
+## Usage
 
 ### Step1 :
 Import this project by a Github Desktop(click [here](https://desktop.github.com/) to install) or by downloading the Zip file . If you downloaded the zip file then you need to unzip or extract it and import this in eclipse(file-->import-->select the project)
@@ -71,7 +82,5 @@ That's all you can run this project and see the results.
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/PavanSaiSheshetti/PatientOnboardingApp_Web/issues/new) by including your search query and the expected result.
 
 
-## Technologies Used:
 
-Java, Angular, SpringBoot, Spring Data, PostgreSql, JSON
 
