@@ -1,11 +1,30 @@
-# PatientOnboardingApp_Web
+# Patient Onboarding Web Application
 
-## Result (Home Page) :
+### Result (Home Page) :
 ![](https://github.com/Na-veed/Patient-OnBoarding-Angular/blob/master/src/assets/home.JPG)
-## Note :
+### Note :
   This project is only spring project and please find related angular project [here](https://github.com/PavanSaiSheshetti/PatientOnboardingApp_Angular). You will find complete 
   description of running project in Installation and Run Section
 ## Project Description
+
+Title of our application is patient on-boarding app
+
+The Application allows patients to submit and update patient information and store it securely making on- boarding faster and reliable.Patient can also buy medicines allocated by the doctor.
+
+Doctor can Login and get all the appointments registered under him and can also allocate medicines to patient. Admin can add the doctors, medicines and have the control over the whole application.
+
+## Technologies Used
+
+<ul><li>Java
+  <li>Java
+  <li>Angular
+  <li>SpringBoot
+  <li>Spring Data
+  <li>PostgreSql
+  <li>JSON
+</ul>
+
+## Features
 
 <p> Title of our application is patient on-boarding app</p>
 
@@ -31,19 +50,7 @@
   <li>I can add doctors and delete doctors</li>
   <li>I can able to delete patients and delete the records of medicines that been in the bought state
 </ul>
-
-## Technologies Used
-
-<ul><li>Java
-  <li>Java
-  <li>Angular
-  <li>SpringBoot
-  <li>Spring Data
-  <li>PostgreSql
-  <li>JSON
-</ul>
-
-## Technical Aspect:
+### Technical Aspect:
 <ul>
 <li>Used Spring Data for connecting to postgresql database </li>
 <li>Used DAO design pattern in the project
@@ -76,8 +83,11 @@ That's all you can run this project and see the results.
 <li>you can install eclipse IDE <a href="https://www.eclipse.org/downloads/">here</a></li>
 <li>you can install visual studio code <a href="https://code.visualstudio.com/download">here</a></li>
 </ol>
+## Contributors :
 
-## Bug / Feature Request:
+This is a project of team 4 members . we collabortively worked together to complete the project
+
+### Bug / Feature Request:
 
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/PavanSaiSheshetti/PatientOnboardingApp_Web/issues/new) by including your search query and the expected result.
 
