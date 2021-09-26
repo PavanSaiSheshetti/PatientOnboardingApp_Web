@@ -90,7 +90,3 @@ This is a project of team 4 members . we collabortively worked together to compl
 ### Bug / Feature Request:
 
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/PavanSaiSheshetti/PatientOnboardingApp_Web/issues/new) by including your search query and the expected result.
-
-
-
-
