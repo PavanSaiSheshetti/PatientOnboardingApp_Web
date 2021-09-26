@@ -50,7 +50,9 @@ Doctor can Login and get all the appointments registered under him and can also 
   <li>I can add doctors and delete doctors</li>
   <li>I can able to delete patients and delete the records of medicines that been in the bought state
 </ul>
+
 ### Technical Aspect:
+
 <ul>
 <li>Used Spring Data for connecting to postgresql database </li>
 <li>Used DAO design pattern in the project
@@ -83,6 +85,7 @@ That's all you can run this project and see the results.
 <li>you can install eclipse IDE <a href="https://www.eclipse.org/downloads/">here</a></li>
 <li>you can install visual studio code <a href="https://code.visualstudio.com/download">here</a></li>
 </ol>
+
 ## Contributors :
 
 This is a project of team 4 members . we collabortively worked together to complete the project
